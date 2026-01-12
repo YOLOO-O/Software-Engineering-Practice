@@ -1,4 +1,6 @@
-class Sale {
+import SaleItem from "./SaleItem.js";
+
+export default class Sale {
   constructor(saleId) {
     this.saleId = saleId;
     this.items = [];

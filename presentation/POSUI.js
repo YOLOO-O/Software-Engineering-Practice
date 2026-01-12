@@ -1,4 +1,4 @@
-class POSUI {
+export default class POSUI {
   constructor(controller) {
     this.controller = controller;
   }

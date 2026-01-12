@@ -1,4 +1,4 @@
-class Payment {
+export default class Payment {
   constructor(amount, paymentType = "CASH") {
     this.amount = amount;
     this.paymentType = paymentType;

@@ -1,4 +1,8 @@
-class SaleController {
+import Sale from "../domain/Sale.js";
+import Payment from "../domain/Payment.js";
+import Receipt from "../domain/Receipt.js";
+
+export default class SaleController {
   constructor(inventory) {
     this.inventory = inventory;
     this.currentSale = null;

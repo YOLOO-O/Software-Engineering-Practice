@@ -1,4 +1,4 @@
-class Receipt {
+export default class Receipt {
   constructor(receiptNumber, sale) {
     this.receiptNumber = receiptNumber;
     this.sale = sale;

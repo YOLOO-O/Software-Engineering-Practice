@@ -1,4 +1,4 @@
-class Return {
+export default class Return {
   constructor(returnId, product, quantity) {
     this.returnId = returnId;
     this.product = product;

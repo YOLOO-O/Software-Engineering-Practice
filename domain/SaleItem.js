@@ -1,4 +1,4 @@
-class SaleItem {
+export default class SaleItem {
   constructor(product, quantity) {
     this.product = product;
     this.quantity = quantity;
